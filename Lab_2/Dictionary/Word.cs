@@ -10,7 +10,7 @@ public class Word : IComparable<Word>
     {
         fullWord = word;
         WordConsole(word);
-    }
+    } 
 
     public Word(string root, List<string> suffixes) {
         this.root = root;

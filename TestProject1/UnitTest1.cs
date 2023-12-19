@@ -34,7 +34,7 @@ public class UnitTest1
         
         //добавим новое слово
         Word w = new Word(word, new List<string>());
-        dictionary.AddNewWord(w);
+        dictionary.AddNewWord(w); 
 
         Assert.Equal(dictionary.ListWords().Count,1);
     }

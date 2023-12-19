@@ -14,7 +14,7 @@ public class dictionary {
         if (!checkWord(word)) {
             Console.Write($"Unknown word. Want to add it to the dictionary? (Y/N)");
             if (Console.ReadLine().Equals("Y")) {
-                Word newWord = new Word(word);
+                Word newWord = new Word(word); 
                 AddNewWord(newWord);
             }
             return;
